@@ -1,5 +1,11 @@
 void main() {
   String name = "Mohammad";
-  String firstChar = name[0];
-  print("The first character of '$name' is: $firstChar");
+  int myAge = 22;
+  int myyear = 2003;
+  double myHight = 175;
+
+  print(name[0].toUpperCase());
+  print(myAge.ceil());
+  print(myyear.floor());
+  print(myHight.round());
 }
